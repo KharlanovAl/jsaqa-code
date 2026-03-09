@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1770307172971" clover="3.2.0">
+  <project timestamp="1770307172971" name="All files">
+    <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0" elements="2" coveredelements="0" complexity="0" loc="2" ncloc="2" packages="1" files="2" classes="2"/>
+    <file name="jest-puppeteer.config.js" path="C:\Users\User\Desktop\IT\Netology Automated testing\Blok 7 web\Fork DZ\jsaqa-code\7.2\jest-puppeteer.config.js">
+      <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <line num="1" count="0" type="stmt"/>
+    </file>
+    <file name="jest.config.js" path="C:\Users\User\Desktop\IT\Netology Automated testing\Blok 7 web\Fork DZ\jsaqa-code\7.2\jest.config.js">
+      <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <line num="1" count="0" type="stmt"/>
+    </file>
+  </project>
+</coverage>

@@ -1,5 +1,20 @@
 module.exports = {
-    verbose: true, //указывает на то, что каждый тест будет показан в отчете о процессе запуска 
-     preset: "jest-puppeteer", //указываем, что будем использовать эту библиотеку
-     testTimeout: 60000
- };
+    verbose: true,
+    preset: "jest-puppeteer",
+    testTimeout: 60000,
+    
+    collectCoverage: true,
+    collectCoverageFrom: [
+        "**/*.{js,jsx}",
+        "!**/node_modules/**",
+        "!**/coverage/**"
+    ],
+    coverageDirectory: "coverage",
+    coverageThreshold: {
+        "global": {
+            "branches": 100,
+            "functions": 100,
+            "lines": 100
+        }
+    }
+};
