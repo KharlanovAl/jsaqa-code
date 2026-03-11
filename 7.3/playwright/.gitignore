@@ -10,3 +10,14 @@
 
 # Local History for Visual Studio Code
 .history/
+
+tests/user.js
+package-lock.json
+
+# Playwright
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/
